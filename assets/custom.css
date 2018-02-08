@@ -1,0 +1,35 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    color:#333;	
+    font:300 15px/15px Roboto,Arial,Helvetica;
+    background:url(../images/bg.jpg) fixed;
+    background-size: cover;
+}
+#background-overlay {
+    background-color: rgba(255, 255, 255, 0.82);
+}
+.navbar-brand {
+    font-size: 30px; 
+    margin-top: 18px; 
+    font-family: Cabin Sketch;
+    font-weight: 400;
+}
+.navbar-nav {
+    font-family: Alegreya Sans SC;
+}
+.gototop a i {
+    -webkit-transition: color 0.3s, opacity 0.3s;
+    color: #bfacac;
+    opacity: 0.8;
+    vertical-align: middle;
+}
+.gototop a i:hover {
+    color: #ffffff;
+    opacity: : 1;
+    vertical-align: middle;
+}
+@media (max-width: 767px) {
+    .navbar-brand {
+        font-size: 22px;
+    }
+}
