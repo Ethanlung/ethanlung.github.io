@@ -1,21 +1,33 @@
 body {
     -webkit-font-smoothing: antialiased;
-    color:#333;	
+    color:#333;
     font:300 15px/15px Roboto,Arial,Helvetica;
     background:url(../images/bg.jpg) fixed;
     background-size: cover;
 }
 #background-overlay {
-    background-color: rgba(255, 255, 255, 0.82);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 .navbar-brand {
-    font-size: 30px; 
-    margin-top: 18px; 
-    font-family: Cabin Sketch;
-    font-weight: 400;
+    font-size: 30px;
+    margin-top: 18px;
+    font-family: Roboto;
+    font-weight: 300;
+}
+
+.navbar-brand:hover {
+    font-size: 30px;
+    margin-top: 18px;
+    font-family: Roboto;
+    font-weight: 300;
+    color: #666 !important;
 }
 .navbar-nav {
-    font-family: Alegreya Sans SC;
+    font-family: Roboto;
+}
+
+.navbar-nav li a:hover {
+    color: #666 !important;
 }
 .gototop a i {
     -webkit-transition: color 0.3s, opacity 0.3s;
@@ -32,4 +44,8 @@ body {
     .navbar-brand {
         font-size: 22px;
     }
+}
+
+.navbar-toggle {
+    background-color: black;
 }
