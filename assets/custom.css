@@ -13,6 +13,7 @@ body {
     margin-top: 18px;
     font-family: Roboto;
     font-weight: 300;
+    color: #333 !important;
 }
 
 .navbar-brand:hover {
@@ -20,14 +21,19 @@ body {
     margin-top: 18px;
     font-family: Roboto;
     font-weight: 300;
-    color: #666 !important;
+    color: #333 !important;
 }
 .navbar-nav {
     font-family: Roboto;
 }
 
+.navbar-nav li {
+    font-family: Roboto;
+    color: #333 !important;
+}
+
 .navbar-nav li a:hover {
-    color: #666 !important;
+    color: #E89F10 !important;
 }
 .gototop a i {
     -webkit-transition: color 0.3s, opacity 0.3s;

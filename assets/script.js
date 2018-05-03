@@ -1,6 +1,6 @@
  jQuery(document).ready(function($) {
- 
-    $(".scroll a").click(function(event){   
+
+    $(".scroll a").click(function(event){
     event.preventDefault();
     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600,'swing');
     $(".scroll li").removeClass('active');
@@ -8,7 +8,6 @@
     });
     });
 
-document.getElementById("navbarHome").children[0].style.color = "#E89F10";
 $(window).scroll(function() {
    var hT = $('#home').offset().top,
        hH = $('#home').outerHeight(),
@@ -16,7 +15,7 @@ $(window).scroll(function() {
        wS = $(this).scrollTop();
    if (wS > (hT+hH-wH)){
        for(var i=0; i<4; i++) {
-           document.getElementById("navContainer").children[i].children[0].style.color = "#777";
+           document.getElementById("navContainer").children[i].children[0].style.color = "#333";
        }
      document.getElementById("navbarHome").children[0].style.color = "#E89F10";
    }
@@ -28,7 +27,7 @@ $(window).scroll(function() {
         wS = $(this).scrollTop();
    if (wS > (hT-hH)){
        for(var i=0; i<4; i++) {
-           document.getElementById("navContainer").children[i].children[0].style.color = "#777";
+           document.getElementById("navContainer").children[i].children[0].style.color = "#333";
        }
        document.getElementById("navbarAbout").children[0].style.color = "#E89F10";
    }
@@ -40,7 +39,7 @@ $(window).scroll(function() {
         wS = $(this).scrollTop();
    if (wS > (hT-hH)){
        for(var i=0; i<4; i++) {
-           document.getElementById("navContainer").children[i].children[0].style.color = "#777";
+           document.getElementById("navContainer").children[i].children[0].style.color = "#333";
        }
        document.getElementById("navbarWorks").children[0].style.color = "#E89F10";
    }
@@ -52,7 +51,7 @@ $(window).scroll(function() {
         wS = $(this).scrollTop();
    if (wS > (hT-hH)){
        for(var i=0; i<4; i++) {
-           document.getElementById("navContainer").children[i].children[0].style.color = "#777";
+           document.getElementById("navContainer").children[i].children[0].style.color = "#333";
        }
      document.getElementById("navbarContact").children[0].style.color = "#E89F10";
    }
@@ -91,6 +90,3 @@ function verify() {
         location.reload();
     }
 }
-
-
-

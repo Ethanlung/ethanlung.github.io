@@ -1,5 +1,5 @@
 a{color:#00a9c6; text-decoration:none;}
-a:hover{color:#666;}
+a:hover{color:#333;}
 .btn,a,.btn:hover,a:hover {
 -webkit-transition: all 0.3s ease-in-out;
 -moz-transition: all 0.3s ease-in-out;
